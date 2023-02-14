@@ -1,0 +1,152 @@
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #152938;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-style: normal;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 654px;
+    margin: 134px 393px 186px 393px;
+}
+
+.heading{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #FCFCFC;
+}
+
+.first-main-container{
+    width: 654px;
+    height: 559px;
+    margin-top: 78px;
+    background: #FCFCFC;
+    border-radius: 20px;
+}
+
+.theme-container{
+    flex-direction: column;
+    align-items: center;
+    margin: 56px 56px 0 56px;
+    width: 542px;
+    height: 93px;
+}
+
+.select-txt, .grid-txt{
+    display: flex;
+    align-items: flex-start;
+    text-align: right;
+    width: 130px;
+    height: 25px;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #7191A5;
+}
+
+.btn-click, .grid-btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.numbers, .grid-btn1{
+    width: 256px;
+    height: 52px;
+    background: #304859;
+    border-radius: 26px;
+    border: none;
+    font-size: 26px;
+    color: #FCFCFC;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.icons, .grid-btn2{
+    width: 256px;
+    height: 52px;
+    border-radius: 26px;
+    background: #BCCED9;
+    border: none;
+    font-size: 26px;
+    color: #FCFCFC;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.player-container{
+    flex-direction: column;
+    align-items: center;
+    margin: 32px 56px 0 56px;
+    width: 542px;
+    height: 93px;
+}
+
+.number-txt{
+    display: flex;
+    align-items: flex-start;
+    text-align: right;
+    width: 187px;
+    height: 25px;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #7191A5;
+}
+
+.btn2-click{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.btn2-click button{
+    width: 119px;
+    height: 52px;
+    background: #304859;
+    border-radius: 26px;
+    border: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    color: #FCFCFC;
+}
+
+.btn2{
+    background: #BCCED9 !important;
+}
+
+.grid-container{
+    flex-direction: column;
+    align-items: center;
+    margin: 33px 56px 0 56px;
+    width: 542px;
+    height: 93px;
+}
+
+.start-btn button{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #FCFCFC;
+    background: #FDA214;
+    border-radius: 35px;
+    margin: 33px 56px 0 56px;
+    border: none !important;
+    width: 541px;
+    height: 50px;
+}
