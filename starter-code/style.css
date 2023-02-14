@@ -71,6 +71,15 @@ main{
     color: #FCFCFC;
     font-weight: 700;
     line-height: 32px;
+    cursor: pointer;
+}
+
+.numbers:hover{
+    background-color: #6395B8;
+}
+
+.grid-btn1:hover{
+    background-color: #6395B8;
 }
 
 .icons, .grid-btn2{
@@ -83,6 +92,15 @@ main{
     color: #FCFCFC;
     font-weight: 700;
     line-height: 32px;
+    cursor: pointer;
+}
+
+.icons:hover{
+    background-color: #6395B8;
+}
+
+.grid-btn2:hover{
+    background-color: #6395B8;
 }
 
 .player-container{
@@ -121,10 +139,19 @@ main{
     font-size: 26px;
     line-height: 32px;
     color: #FCFCFC;
+    cursor: pointer;
+}
+
+.btn2-click button:hover{
+    background-color: #6395B8;
 }
 
 .btn2{
     background: #BCCED9 !important;
+}
+
+.btn3:hover{
+    background-color: #6395B8;
 }
 
 .grid-container{
@@ -142,6 +169,7 @@ main{
     font-size: 32px;
     line-height: 40px;
     text-align: center;
+    align-items: center;
     color: #FCFCFC;
     background: #FDA214;
     border-radius: 35px;
@@ -149,4 +177,9 @@ main{
     border: none !important;
     width: 541px;
     height: 50px;
+    cursor: pointer;
+}
+
+.start-btn button:hover{
+    background: #FFB84A;
 }
