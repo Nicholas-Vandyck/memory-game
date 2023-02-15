@@ -74,19 +74,19 @@ nav {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
     border: none;
-    width: 572px;
-    height: 572px;
+    width: 532px;
+    height: 532px;
   }
   
 .circle {
-    height: 82px;
-    width: 82px;
+    height: 118px;
+    width: 118px;
     background: #304859;
-    border-radius: 41px;
+    border-radius: 59px;
     border: none !important;
     display: flex;
     justify-content: center;

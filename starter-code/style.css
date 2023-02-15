@@ -132,7 +132,7 @@ main{
 .btn2-click button{
     width: 119px;
     height: 52px;
-    background: #304859;
+    /* background: #304859; */
     border-radius: 26px;
     border: none;
     font-weight: 700;
@@ -142,16 +142,20 @@ main{
     cursor: pointer;
 }
 
-.btn2-click button:hover{
-    background-color: #6395B8;
+.btn1{
+    background: #304859;
+}
+
+.btn1:hover{
+    background: #6395B8;
 }
 
 .btn2{
-    background: #BCCED9 !important;
+    background: #BCCED9;
 }
 
-.btn3:hover{
-    background-color: #6395B8;
+.btn2:hover{
+    background: #6395B8;
 }
 
 .grid-container{
